@@ -1,0 +1,6 @@
+#swapping nibbles may 31
+n=int(input(),2)#converts into decimal value from binary value
+a = n % 16#extracts last 4 digits of the nibble
+b = n / 16#extracts first 4 digits of the nibble
+ans = int(a * 16 +b)
+print(ans)
